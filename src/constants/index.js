@@ -85,7 +85,7 @@ const projects = [
     title: "Portfolio",
     subtitle: "I guess i have seen it somewhere?",
     info: "#React #ThreeJS",
-    link:"https://github.com/ANIRUDH-VADERA/Portfolio",
+    link:"https://anirudh-vadera.github.io/Portfolio2023-24/",
     desc:"How about browse what you have been scrolling so far."
   },
   {
