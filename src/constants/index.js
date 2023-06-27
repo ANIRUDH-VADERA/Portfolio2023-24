@@ -93,7 +93,7 @@ const projects = [
     title: "Utility Package",
     subtitle: "It doesnt end here",
     info: "#BackendProjects #Utility Apps",
-    link:"https://github.com/ANIRUDH-VADERA/UtilityWebsite",
+    link:"https://transcendent-squirrel-e70c0d.netlify.app",
     desc:"Do View some of the other interesting projects that i have made."
   },
 ];
@@ -109,7 +109,7 @@ const projects = [
     {
       title: "Competetive Coder",
       icon: about2,
-      desc : "I absolutely love DSA. My strong areas are Trees and Graphs but i am equally strong in other areas as well. My highest rating at LeetCode is 1847",
+      desc : "I absolutely love DSA. My strong areas are Trees and Graphs but i am equally strong in other areas as well.",
       link : "https://leetcode.com/AnirudhVadera/"
     },
     {

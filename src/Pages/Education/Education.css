@@ -1,7 +1,4 @@
 .education .mainVerticalTimeline{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
 }
 
@@ -11,13 +8,13 @@
 
 .education h3 {
     font-family: GilroyExtraBold;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 15px;
 }
 
 .education h5{
     font-family: GilroyBold;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 600;
 }
 
@@ -35,8 +32,8 @@
 .education .vertical-timeline-element-content {
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
     padding: 2em 3em !important;
-    width: 470px !important;
-    height: 470px;
+    width: 450px !important;
+    height: 440px;
 }
 
 .education .date {
@@ -53,7 +50,7 @@
 
 .education .button {
     font-family: GilroySemiBold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     color: #fff;
     text-decoration: none;
@@ -160,4 +157,8 @@ background-color: #4506C8;
     transform: scale(0.7);
     transition: all 1.5s cubic-bezier(0.77, 0, 0.175, 1);
     filter: grayscale(100%) sepia(20%) brightness(80%);
+}
+
+.education .AboutP{
+    font-size : 0.9rem;
 }

@@ -16,8 +16,8 @@
 }
 
 .Skill{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }

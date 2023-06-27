@@ -12,13 +12,13 @@
 
 .experience h3 {
     font-family: GilroyExtraBold;
-    font-size: 0.9994rem;
+    font-size: 0.9rem;
     margin-top: 15px;
 }
 
 .experience h5{
     font-family: GilroyBold;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 600;
 }
 
@@ -31,8 +31,8 @@
 .experience .vertical-timeline-element-content {
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
     padding: 1.5em 1.5em !important;
-    width: 540px !important;
-    height: 550px;
+    width: 520px !important;
+    height: 530px;
 }
 
 .experience .date {
@@ -49,7 +49,7 @@
 
 .experience .button {
     font-family: GilroySemiBold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     color: #fff;
     text-decoration: none;
@@ -156,4 +156,8 @@ background-color: #4506C8;
     transform: scale(0.7);
     transition: all 1.5s cubic-bezier(0.77, 0, 0.175, 1);
     filter: grayscale(100%) sepia(20%) brightness(80%);
+}
+
+.experience .AboutP{
+    font-size : 0.9rem;
 }

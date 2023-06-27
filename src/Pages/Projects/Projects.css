@@ -30,7 +30,7 @@
 .gallery .gallery-item-info .gallery-info-title {
     font-family: GilroyExtraBold;
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
 }
 .gallery .gallery-item-info .gallery-info-subtitle {
@@ -38,7 +38,7 @@
     color: transparent;
     font-family: GilroySemiBold;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.5rem;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke: 2px #dbd8d6;
     margin-top: 0;
@@ -48,7 +48,7 @@
     line-height: 24px;
     font-family: GilroyMedium;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     -webkit-font-smoothing: antialiased;
     margin-top: 2vh;
 }
@@ -81,6 +81,6 @@
 }
 
 .gallery .AboutP{
-    font-size: 1.4rem;
+    font-size: 1rem;
     width: 100%;
 }
