@@ -1,0 +1,86 @@
+
+.ProjectsPage{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.gallery {
+    width: 100%;
+    height: 67vh;
+    overflow-y: auto;
+    overflow-x:hidden;
+}
+.gallery .gallery-item {
+    height: 100%;
+    will-change: transform;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.gallery .gallery-item-info {
+    color: #dbd8d6;
+    color: white;
+    width: 40%;
+    height: 100%;
+    background: #1f1f1f ;
+    padding: 12px;
+}
+.gallery .gallery-item-info .gallery-info-title {
+    font-family: GilroyExtraBold;
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+.gallery .gallery-item-info .gallery-info-subtitle {
+    position: relative;
+    color: transparent;
+    font-family: GilroySemiBold;
+    font-weight: 400;
+    font-size: 2rem;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: 2px #dbd8d6;
+    margin-top: 0;
+}
+.gallery .gallery-item-info .gallery-info-category {
+    position: relative;
+    line-height: 24px;
+    font-family: GilroyMedium;
+    font-weight: 400;
+    font-size: 1.2rem;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 2vh;
+}
+.gallery .gallery-item-wrapper {
+    aspect-ratio: 1.7777777778;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0 1fr 0;
+    width: 84vw;
+}
+.gallery .gallery-item-wrapper.is-reveal .gallery-item-image {
+    transform: scale(1);
+    filter:  brightness(100%);
+    width: 100% !important;
+}
+.gallery .gallery-item-image {
+    background-size: cover;
+    background-position: center;
+    transform-origin: center;
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+    transform: scale(0.7);
+    transition: all 1.5s cubic-bezier(0.77, 0, 0.175, 1);
+    filter: grayscale(100%) sepia(20%) brightness(50%);
+}
+
+.gallery a{
+    text-decoration: none;
+}
+
+.gallery .AboutP{
+    font-size: 1.4rem;
+    width: 100%;
+}

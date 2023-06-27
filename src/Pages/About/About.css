@@ -1,0 +1,97 @@
+.AboutH1{
+    font-family: GilroySemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.7rem;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.371094px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.AboutH2{
+    text-decoration: none;
+    font-family: GilroyMedium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.95);
+    white-space: nowrap;
+    margin:20px 0;
+}
+
+.AboutP{
+    font-family: GilroySemiBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 173%;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.aboutCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 78vw;
+}
+
+.aboutTilt{
+    width: 260px;
+}
+
+.aboutTiltMotionCard{
+    border-radius:20px;
+    background: #1f1f1f;
+    height: 320px;
+    width: 350px;
+    margin-bottom: 27px;
+    transition: all 0.3s ease-in-out;
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.aboutMainCard{
+    padding: 12px 5px;
+    border-radius:20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutImg{
+    width: 40%;
+    height: 40%;
+    border-radius:20px;
+    object-fit: contain;
+}
+
+.aboutMainCard:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(153, 153, 153, 0.2);
+    transform:  scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.aboutCards .AboutH1{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.aboutCards .AboutP{
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+.aboutTilt a{
+    text-decoration: none;
+}

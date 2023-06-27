@@ -1,0 +1,128 @@
+.home{
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.smallMouse{
+    position:absolute;
+    width:100%;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    bottom: 32px;
+}
+
+.smallMouseDiv{
+    width:30px;
+    height: 54px;
+    border-radius:72rem;
+    border: 0.23rem solid white;
+    display: flex;
+    justify-content : center;
+    align-items: start;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.mouseMotionDiv{
+    width:0.75rem;
+    height: 0.75rem;
+    border-radius:100%;
+    margin-bottom: 0rem; 
+    background-color: white;
+}
+
+.bg img {
+    width: 110vw;
+    height: 110vh;
+    filter: brightness(0.6);
+}
+
+.rock1 {
+    position: absolute !important;
+    left: 10vw !important;
+    top: 20vh !important;
+}
+
+.rock1 img {
+    width: 40%;
+    filter: brightness(0.5);
+}
+
+.text h1 {
+    font-family: "AlphaCentauri";
+    font-size: 4vw;
+    color: #C5C6C7; 
+    letter-spacing: 10px;
+    position: absolute;
+    top: 30vh;
+    left: 30vw;
+    width : 65vw !important;
+}
+
+.text h2{
+    font-family: "AlphaCentauri";
+    font-size: 3vw;
+    color: #C5C6C7; 
+    letter-spacing: 5px;
+    position: absolute;
+    top: 42vh;
+    left: 30vw;
+    width : 60vw !important;
+}
+
+.text .firsth2{
+    font-family: "AlphaCentauri";
+    font-size: 3vw;
+    color: #C5C6C7; 
+    letter-spacing: 5px;
+    position: absolute;
+    top: 23.5vh;
+    left: 45vw;
+    width : 40vw !important;  
+}
+
+.toChange{
+    color: #66FCF1;
+}
+
+.earth img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 34vw;
+    top: 25vh;
+    z-index: 1;
+    filter: brightness(0.7);
+}
+
+.mid {
+    left: -150px !important;
+    bottom: -100px !important;
+    top: unset !important;
+}
+
+.mid img {
+    width: 100%;
+    z-index: 2;
+    left: -20px;
+    top: 20vh !important;
+    filter: brightness(0.8);
+}
+
+.fore {
+    right: -50px !important;
+    bottom: -200px !important;
+    top: 0px !important;
+    left: unset !important;
+}
+
+.fore img {
+    width: 400px;
+    height: 110vh;
+    z-index: 3;
+    filter: brightness(0.5);
+}

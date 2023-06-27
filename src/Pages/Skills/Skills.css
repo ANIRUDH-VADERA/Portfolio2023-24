@@ -1,0 +1,28 @@
+.mainSkill{
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+}
+
+
+.Skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    margin: 100px 0;
+}
+
+.Skill{
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.Skill:hover {
+    transform: scale(1.06);
+    transition: all 0.3s ease-in-out;
+}

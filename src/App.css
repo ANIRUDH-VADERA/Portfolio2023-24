@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #131313;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  z-index: 0;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: GilroyBold;
+  src: url("./font/Gilroy-Bold.ttf");
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: GilroySemiBold;
+  src: url("./font/Gilroy-SemiBold.ttf");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: GilroyMedium;
+  src: url("./font/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url("./font/Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: GilroyExtraBold;
+  src: url("./font/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Alphacentauri;
+  src: url("./font/Alphacentauri-MVY4p.ttf");
+}
+
+.starsCanvas{
+  position: relative;
+  z-index: 0;
 }
